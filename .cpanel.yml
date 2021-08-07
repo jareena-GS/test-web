@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/digintmedia/public_html/test-web/
+    - /bin/cp * $DEPLOYPATH
+    
